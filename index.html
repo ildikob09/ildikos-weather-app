@@ -12,14 +12,14 @@
 <body>
     <main>
       <header>
-        <form>
-            <input type="search" placeholder="Enter a city..." class="form-input">
+        <form id="search-form">
+            <input type="search" placeholder="Enter a city..." class="form-input" id="search-form-input">
             <input type="submit" value="Search" class="form-button">
         </form>
       </header>
       <div class="weather-app-data">
        <div class="weather-app-city-details">
-        <h1 class="weather-app-city">Budapest</h1>
+        <h1 class="weather-app-city" id="city">Budapest</h1>
          <p class="weather-app-details">
         Wednesday 17:49, cloudy <br />
         Humidity: <strong>75 %</strong>, wind: <strong>5.4 km/h</strong>
@@ -40,6 +40,6 @@
       </p> 
      </footer>
     </main>
-    
+    <script src="src/index.js"></script>
 </body>
 </html>
