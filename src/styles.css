@@ -61,13 +61,15 @@ footer {
 }
 
 .weather-app-emoji {
-  font-size: 56px;
-  margin-top: 12px;
+  width: 88px;
+  height: 88px;
+  
 }
 
 .weather-app-temperature {
-  font-size: 72px;
+  font-size: 88px;
   padding: 5px 0 5px 0;
+  line-height: 1;
 }
 
 .weather-app-unit{
