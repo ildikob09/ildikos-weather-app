@@ -72,11 +72,33 @@ footer {
   line-height: 1;
 }
 
-.weather-app-unit{
+.weather-app-unit {
   font-size: 32px;
   padding-top: 10px;
 }
 
 strong {
   color: #c3195d;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature {
+  color: black;
+
+}
+
+
+.weather-forecast-min {
+  opacity: 0.6;
 }
