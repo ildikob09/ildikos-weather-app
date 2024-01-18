@@ -1,58 +1,56 @@
 body {
-	background: #fae3d9; 
-  font-family: 'Raleway', sans-serif;
-  color:#352f44;
+  background: #fae3d9;
+  font-family: "Raleway", sans-serif;
+  color: #352f44;
 }
 
-main {
-    background: #bbded6;
-    max-width: 600px;
-    border-radius: 15px;
-    padding: 40px;
-    margin: 30px auto;
+.main {
+  background: #bbded6;
+  max-width: 600px;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 30px auto;
 }
 
 .form-input {
-    background: #fae3d9; 
-    width: 80%;
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
+  background: #fae3d9;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
 }
 
 .form-button {
-    background: #ffb6b9;
-    border: none;
-    padding: 15px 25px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-weight: bold;
+  background: #ffb6b9;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
 header {
-    border-bottom: solid 1px grey;
-    padding: 0 0 20px 0;
+  border-bottom: solid 1px grey;
+  padding: 0 0 20px 0;
 }
 
 footer {
-    border-top: solid 1px grey;
-    padding: 20px 0 0 0;
-    font-size: 12px;
-    text-align: center;
+  border-top: solid 1px grey;
+  padding: 20px 0 0 0;
+  font-size: 12px;
+  text-align: center;
 }
 
 .weather-app-data {
   display: flex;
   justify-content: space-between;
   padding: 40px 0px;
-  
 }
 
 .weather-app-city {
-  margin: 20px 0 20px 0 ;
+  margin: 20px 0 20px 0;
   font-size: 38px;
   line-height: 48px;
-
 }
 
 .weather-app-temperature-container {
@@ -63,7 +61,6 @@ footer {
 .weather-app-emoji {
   width: 88px;
   height: 88px;
-  
 }
 
 .weather-app-temperature {
@@ -84,7 +81,6 @@ strong {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  
 }
 
 .weather-forecast-date {
@@ -95,9 +91,7 @@ strong {
 
 .weather-forecast-temperature {
   color: black;
-
 }
-
 
 .weather-forecast-min {
   opacity: 0.6;
