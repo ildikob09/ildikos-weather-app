@@ -81,6 +81,7 @@ strong {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
+  display: inline;
 }
 
 .weather-forecast-date {
