@@ -59,8 +59,8 @@ footer {
 }
 
 .weather-app-emoji {
-  width: 88px;
-  height: 88px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-app-temperature {
@@ -97,4 +97,9 @@ strong {
 
 .weather-forecast-min {
   opacity: 0.6;
+}
+
+.weather-forecast-icon {
+  width: 100%;
+  margin: 0 auto;
 }
