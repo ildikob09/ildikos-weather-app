@@ -64,6 +64,7 @@ function displayForecast() {
     forecastHTML =
       forecastHTML +
       `
+      <div class="forecast-day-info">
     <div class="weather-forecast-date">${day}</div>
             <div>
               <img
@@ -76,6 +77,7 @@ function displayForecast() {
               <span class="weather-forecast-max"> 18° </span>
               <span class="weather-forecast-min">12° </span>
             </div>
+    </div>
     </div>
             `;
   });
